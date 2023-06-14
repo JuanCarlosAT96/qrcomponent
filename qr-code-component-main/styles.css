@@ -1,0 +1,65 @@
+/* Variables */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayishblue: hsl(220, 15%, 55%);
+  --darkblue: hsl(218, 44%, 22%);
+}
+
+/* Global */
+
+body {
+  font-family: "Krub", sans-serif;
+  background-color: var(--lightgray);
+}
+
+/* Typography */
+
+p {
+  font-size: 15px;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* CARD */
+.card {
+  border: 1px solid #212121;
+  border-radius: 5%;
+  border-style: none;
+  width: 20rem;
+  height: 28rem;
+  background-color: var(--white);
+}
+
+.card__info {
+  text-align: center;
+}
+
+.card__img {
+  width: 17rem;
+  height: 17rem;
+  margin-top: 1rem;
+  border-radius: 5%;
+}
+
+.card__info-text {
+  width: 16rem;
+  margin-left: 1.9rem;
+}
+.card__heading {
+  color: var(--darkblue);
+  font-size: 1.2rem;
+}
+
+.card__text {
+  color: var(--grayishblue);
+  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
